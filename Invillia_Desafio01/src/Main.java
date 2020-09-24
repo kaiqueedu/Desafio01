@@ -3,7 +3,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.println("1, 2, 3, 4, 5, 6, 7, 8, 9 ou 10");
+		for(int i = 0; i <10; i++) {
+			System.out.print(i + ", ");
+		}
+		
+		System.out.print("ou 10");
 		
 	}
 }
